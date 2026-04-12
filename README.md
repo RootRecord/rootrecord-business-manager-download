@@ -1,8 +1,8 @@
-﻿> **This repository** is the public product page for **RootRecord Business Manager** (overview, features, privacy, FAQ). It does **not** contain application source code or internal build documentation.
+﻿> **RootRecord Business Manager** â€” product overview, download links, and release notes. The Windows installer is attached to **[GitHub Releases](https://github.com/RootRecord/rootrecord-business-manager-download/releases)** only (not stored in git).
 
 ---<div align="center">
 
-![RootRecord — professional desktop business suite](assets/hero-wide.png)
+![RootRecord — desktop business suite banner](assets/banner.jpg)
 
 # RootRecord Business Manager
 
@@ -10,7 +10,9 @@
 
 Current release: **1.3.34** (see **About & Help** in the app for the exact build on your device.)
 
-[Website](https://rootrecord.info/) · [Terms](https://rootrecord.info/terms) · [Privacy](https://rootrecord.info/privacy) · [Contact](https://rootrecord.info/contact) · [Plugins](https://rootrecord.info/plugins)
+**[Download the Windows installer (latest release)](https://github.com/RootRecord/rootrecord-business-manager-download/releases/latest)**
+
+[Website](https://rootrecord.info/) · [Terms](https://rootrecord.info/terms) · [Privacy](https://rootrecord.info/privacy) · [Contact](https://rootrecord.info/contact)
 
 </div>
 
@@ -23,13 +25,12 @@ Current release: **1.3.34** (see **About & Help** in the app for the exact build
 3. [At a glance](#at-a-glance)
 4. [How your data works](#how-your-data-works)
 5. [Feature tour](#feature-tour)
-6. [Plugins & extensions](#plugins--extensions)
-7. [Account, billing, and optional online services](#account-billing-and-optional-online-services)
-8. [Privacy & security](#privacy--security)
-9. [System requirements](#system-requirements)
-10. [Getting started](#getting-started)
-11. [FAQ](#faq)
-12. [Support](#support)
+6. [Account, billing, and optional online services](#account-billing-and-optional-online-services)
+7. [Privacy & security](#privacy--security)
+8. [System requirements](#system-requirements)
+9. [Getting started](#getting-started)
+10. [FAQ](#faq)
+11. [Support](#support)
 
 ---
 
@@ -41,7 +42,7 @@ Running a business means juggling **time on the clock**, **money in and out**, *
 
 - **Honest totals** — for example, overlapping time blocks are merged for summaries so “hours worked” reflects real clock time, not double-counted minutes.
 - **Professional outputs** — invoices and reports export to **PDF** and **CSV** using the same business details you maintain in the app.
-- **Room to grow** — optional **plugins**, **multi-business profiles**, and **scheduled / prompted logging** for teams that need structure without enterprise complexity.
+- **Room to grow** — **multi-business profiles**, and **scheduled / prompted logging** for teams that need structure without enterprise complexity.
 
 This document is written for **customers and evaluators**. Step-by-step field help also lives inside the app under **About & Help → User guide**.
 
@@ -71,7 +72,6 @@ This document is written for **customers and evaluators**. Step-by-step field he
 | **Schedule** | Events with local timezone wall times; link clients and projects. |
 | **Stock & supplies** | Products and materials, reorder hints, quick quantity adjustments. |
 | **Work log & reports** | Day-true work history, search, charts, exports. |
-| **Plugins** | Optional power-user modules (e.g. energy telemetry) from the catalog. |
 | **Backups** | Local automatic backups; optional secure online copy of backup files. |
 
 ---
@@ -113,7 +113,7 @@ flowchart LR
 
 Your **command center for today**: time worked with overlap-aware math, money summaries where configured, and recent activity so you always know what just happened.
 
-![Dashboard overview — illustrative placeholder; replace with a product screenshot before release.](assets/screenshot-dashboard.png)
+![RootRecord dashboard showing today’s time and activity](assets/dashboard_image.jpg)
 
 ---
 
@@ -125,8 +125,6 @@ Your **command center for today**: time worked with overlap-aware math, money su
 - **Prompts** — optional reminders on an interval you control, with timeout actions for when you are heads-down.
 - **Check-in popups** appear when you are actively working — they pause during breaks and when you are clocked out so they respect your flow.
 - **Bulk edit** — repair duplicates, shift windows, or retag many entries at once from Work Log workflows.
-
-![Time tracking — illustrative placeholder; replace with a product screenshot before release.](assets/screenshot-time.png)
 
 ---
 
@@ -141,8 +139,6 @@ Your **command center for today**: time worked with overlap-aware math, money su
 **Debts** — Track what you owe or are owed; closing a debt can post the settlement cleanly into expenses.
 
 **Tax Estimator** — For a chosen date range, see **income minus expenses** posted in that window to support planning conversations with your accountant (not a substitute for professional tax advice).
-
-![Money and finance — illustrative placeholder; replace with a product screenshot before release.](assets/screenshot-money.png)
 
 ---
 
@@ -161,8 +157,6 @@ One surface for **what you sell** and **what you consume**:
 - **Apply Δ qty** — Add or subtract on-hand without re-saving entire forms.
 - **Archive** — Hide rows from active lists while keeping history in the database.
 
-![Stock and supplies — illustrative placeholder; replace with a product screenshot before release.](assets/screenshot-stock.png)
-
 ---
 
 ### Work Log & Reports
@@ -171,8 +165,6 @@ One surface for **what you sell** and **what you consume**:
 - **Reports** search across time, income, and expenses; refresh ranges before exporting.
 - **Task and category breakdowns** merge overlaps inside each bucket so totals reflect unique clock coverage.
 - **Exports** — **CSV** and **PDF** for sharing with stakeholders or your bookkeeper.
-
-![Reports — illustrative placeholder; replace with a product screenshot before release.](assets/screenshot-reports.png)
 
 ---
 
@@ -184,18 +176,6 @@ Under **Account Settings** and **Program Settings** you control:
 - **Timezone** — drives schedule parsing and “today” on the dashboard.
 - **Multi-business mode** — separate profiles with scoped money totals when you need them.
 - **Themes, prompts, auto-backup interval, tray behavior**, and more — tuned for daily desktop use.
-
----
-
-## Plugins & extensions
-
-RootRecord supports an optional **Plugins** experience:
-
-- **Browse the catalog** at **[rootrecord.info/plugins](https://rootrecord.info/plugins)**.
-- Install plugins into the folder the app suggests, then **Refresh Catalog** to activate.
-- **Energy Management** (with the Power Monitoring plugin) charts **EcoFlow-style** telemetry trends from saved snapshots — ideal for field operators who track power alongside work.
-
-Plugins are **additive**: the core product remains fully usable without them.
 
 ---
 
@@ -229,14 +209,14 @@ For policies governing websites and online services, see **[Privacy](https://roo
 |---|------------------|
 | **Operating system** | **Windows 10 or later** (64-bit) is the primary, fully tested experience. A Linux folder bundle may be offered for advanced users; treat Linux as **best-effort** until your organization validates it on target distros. |
 | **Display** | 1280×720 or larger recommended; the interface is optimized for modern widescreen laptops. |
-| **Disk** | Small install footprint; allow generous free space for database growth, exports, plugins, and **local backups**. |
-| **Network** | Not required for core local use; required for sign-in, sync, optional secure backup, plugin downloads, and external links. |
+| **Disk** | Small install footprint; allow generous free space for database growth, exports, and **local backups**. |
+| **Network** | Not required for core local use; required for sign-in, sync, optional secure backup, and external links. |
 
 ---
 
 ## Getting started
 
-1. **Install** from the official Windows installer (or your IT-provided package).
+1. **Install** from the **[latest GitHub release](https://github.com/RootRecord/rootrecord-business-manager-download/releases/latest)** (Windows `.exe` installer) or your IT-provided package.
 2. **Open Business / Account settings** — set legal name, timezone, and contact fields so invoices and schedules are correct from day one.
 3. **Run a local backup** from Program Settings (or wait for the automatic schedule) before a heavy import or migration.
 4. **Skim the in-app User guide** under **About & Help** for click-by-click instructions.
@@ -259,7 +239,7 @@ The app may switch to **read-only** so you can still view and export while billi
 No. It is a **planning window** over income and expenses for the dates you pick. Always work with a qualified professional for filing.
 
 **Can I use RootRecord completely offline?**  
-Yes for core time, money, clients, inventory, and reports. Sign-in, sync, secure backup copies, and plugin downloads need connectivity when you choose to use them.
+Yes for core time, money, clients, inventory, and reports. Sign-in, sync, and secure backup copies need connectivity when you choose to use them.
 
 ---
 
@@ -269,7 +249,6 @@ Yes for core time, money, clients, inventory, and reports. Sign-in, sync, secure
 - **Contact:** [https://rootrecord.info/contact](https://rootrecord.info/contact)
 - **Terms:** [https://rootrecord.info/terms](https://rootrecord.info/terms)
 - **Privacy:** [https://rootrecord.info/privacy](https://rootrecord.info/privacy)
-- **Plugins:** [https://rootrecord.info/plugins](https://rootrecord.info/plugins)
 
 For **how-to** detail that mirrors the buttons in the app, open **About & Help → User guide** inside RootRecord.
 
@@ -277,7 +256,7 @@ For **how-to** detail that mirrors the buttons in the app, open **About & Help �
 
 <div align="center">
 
-![RootRecord mark — illustrative; replace with final brand asset if needed.](assets/logo-mark.png)
+![RootRecord product mark](assets/github-icon.jpg)
 
 © RootRecord. All rights reserved.  
 *RootRecord Business Manager* · Release documentation **v1.3.34**
