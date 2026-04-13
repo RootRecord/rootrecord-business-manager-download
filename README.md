@@ -8,7 +8,9 @@
 
 **One calm workspace for time, money, clients, inventory, and reports - built for owners and operators who want clarity without living in a browser.**
 
-Current release: **1.3.37** (see **About & Help** in the app for the exact build on your device.)
+Current release: **1.3.39** (see **About & Help** in the app for the exact build on your device.)
+
+**What’s new in 1.3.39:** Windows installer pipeline improvements (properly signed app bundled in the setup you download), documentation refresh, and reliability fixes for optional online backup / sync features.
 
 **[Download the Windows installer (latest release)](https://github.com/RootRecord/rootrecord-business-manager-download/releases/latest)**
 
@@ -259,6 +261,6 @@ For **how-to** detail that mirrors the buttons in the app, open **About & Help -
 ![RootRecord product mark](assets/github-icon.jpg)
 
 © RootRecord. All rights reserved.  
-*RootRecord Business Manager*  | Release documentation **v1.3.37**
+*RootRecord Business Manager*  | Release documentation **v1.3.39**
 
 </div>
