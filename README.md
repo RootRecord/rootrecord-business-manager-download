@@ -8,9 +8,9 @@
 
 **One calm workspace for time, money, clients, inventory, and reports - built for owners and operators who want clarity without living in a browser.**
 
-Current release: **1.3.46** (see **About & Help** in the app for the exact build on your device.)
+Current release: **2.0.0** (see **About & Help** in the app for the exact build on your device.)
 
-**What’s new in 1.3.46:** Release/build tooling now defaults to **signed Windows installers** so GitHub downloads are less likely to be blocked on strict security systems. Core product behavior from **1.3.45** (time-entry sync reliability and work log updates) remains in place.
+**What’s new in 2.0.0:** The **2.x** line is a **next-generation Windows desktop build** (modern UI stack) with the same product focus: local-first data, time and money workflows, and optional sign-in. **Windows installers from GitHub are Authenticode-signed** (Azure Trusted Signing), including shipped binaries, for a smooth experience on **strict security policies** and **Smart App Control**. The **Microsoft Store** continues to offer the app with Store-based updates; **GitHub** remains the channel for direct Windows installer downloads and in-app auto-update for those builds.
 
 **[Download the Windows installer (latest release)](https://github.com/RootRecord/rootrecord-business-manager-download/releases/latest)**
 
@@ -261,6 +261,6 @@ For **how-to** detail that mirrors the buttons in the app, open **About & Help -
 ![RootRecord product mark](assets/github-icon.jpg)
 
 © RootRecord. All rights reserved.  
-*RootRecord Business Manager*  | Release documentation **v1.3.46**
+*RootRecord Business Manager*  | Release documentation **v2.0.0**
 
 </div>
